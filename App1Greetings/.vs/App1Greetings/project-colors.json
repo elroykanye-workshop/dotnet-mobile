@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "53320b75-6af2-4f21-bece-d882b6a8e3d4": {
+      "ProjectGuid": "53320b75-6af2-4f21-bece-d882b6a8e3d4",
+      "DisplayName": "App1Greetings",
+      "ColorIndex": 0
+    },
+    "4bdf127e-c7a0-4cfa-b0c1-11a5f82896e4": {
+      "ProjectGuid": "4bdf127e-c7a0-4cfa-b0c1-11a5f82896e4",
+      "DisplayName": "App1Greetings.Android",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
