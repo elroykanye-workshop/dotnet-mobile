@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App1Greetings.Pages;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace App1Greetings
         {
             InitializeComponent();
 
-            MainPage = new GreetingsPage();
+            MainPage = new FontNamedSizes();
         }
 
         protected override void OnStart()
