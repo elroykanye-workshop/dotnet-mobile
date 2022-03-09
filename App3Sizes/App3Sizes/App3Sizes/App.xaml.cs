@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App3Sizes.Pages;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace App3Sizes
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new ClockFitSize();
         }
 
         protected override void OnStart()
