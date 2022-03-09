@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App2Stack.Pages;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace App2Stack
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new ColorBoxes();
         }
 
         protected override void OnStart()
