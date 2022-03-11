@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5Xaml.Pages.ColorsPage">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0"></OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="8, 16">
+            <Frame>
+                <StackLayout Orientation="Horizontal">
+                    <BoxView WidthRequest="48" HeightRequest="48" BackgroundColor="Red"></BoxView>
+                    <Label Text="Red" VerticalTextAlignment="Center"></Label>
+                </StackLayout>
+            </Frame>
+            <Frame>
+                <StackLayout Orientation="Horizontal">
+                    <BoxView WidthRequest="48" HeightRequest="48" BackgroundColor="Green"></BoxView>
+                    <Label Text="Green" VerticalTextAlignment="Center"></Label>
+                </StackLayout>
+            </Frame>
+            <Frame>
+                <StackLayout Orientation="Horizontal">
+                    <BoxView WidthRequest="48" HeightRequest="48" BackgroundColor="Blue"></BoxView>
+                    <Label Text="Blue" VerticalTextAlignment="Center"></Label>
+                </StackLayout>
+            </Frame>
+            <Frame>
+                <StackLayout>
+                    <StackLayout Spacing="0" Padding="4, 32" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                        <BoxView WidthRequest="96" HeightRequest="128" BackgroundColor="Green"></BoxView>
+                        <BoxView WidthRequest="96" HeightRequest="128" BackgroundColor="Red"></BoxView>
+                        <BoxView WidthRequest="96" HeightRequest="128" BackgroundColor="Yellow"></BoxView>
+                    </StackLayout>
+                    <Label HorizontalTextAlignment="Center" FontSize="Large" FontAttributes="Bold" Text="Cameroon"></Label>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

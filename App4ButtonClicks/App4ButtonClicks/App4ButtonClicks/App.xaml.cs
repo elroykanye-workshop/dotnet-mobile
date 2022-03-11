@@ -7,11 +7,17 @@ namespace App4ButtonClicks
 {
     public partial class App : Application
     {
+        const string entryLabelTextKeyname = "EntryLabelText";
+        public string EntryLabelText { get; set; }
         public App()
         {
+            if(Properties.ContainsKey(entryLabelTextKeyname))
+            {
+                EntryLabelText = (string) Properties[entryLabelTextKeyname];
+            }
             InitializeComponent();
 
-            MainPage = new ClickProcessorPage();
+            MainPage = new SimplestKeypadPage();
         }
 
         protected override void OnStart()
