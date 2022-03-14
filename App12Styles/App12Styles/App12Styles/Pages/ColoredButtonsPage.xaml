@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App12Styles.Pages.ColoredButtonsPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="btnStyle1" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Green"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+                <Setter Property="CornerRadius" Value="32"></Setter>
+                <Setter Property="TextColor" Value="White"></Setter>                
+            </Style>
+            <Style x:Key="btnStyle2" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Red"></Setter>
+                <Setter Property="FontAttributes" Value="Italic"></Setter>
+                <Setter Property="CornerRadius" Value="32"></Setter>
+                <Setter Property="TextColor" Value="White"></Setter>
+            </Style>
+            <Style x:Key="btnStyle3" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Yellow"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+                <Setter Property="FontAttributes" Value="Italic"></Setter>
+                <Setter Property="CornerRadius" Value="32"></Setter>
+                <Setter Property="TextColor" Value="Black"></Setter>
+            </Style>
+            <Style x:Key="btnStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Blue"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+                <Setter Property="CornerRadius" Value="32"></Setter>
+                <Setter Property="TextColor" Value="White"></Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Azure" Padding="32, 96" Spacing="96">
+            <Button Text="First" Style="{DynamicResource btnStyle}" Clicked="Button_Clicked_1"></Button>
+            <Button Text="Second" Style="{DynamicResource btnStyle}" Clicked="Button_Clicked_2"></Button>
+            <Button Text="Third"  Style="{DynamicResource btnStyle}" Clicked="Button_Clicked_3"></Button>
+            <Button Text="Reset"  Style="{DynamicResource btnStyle}" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
