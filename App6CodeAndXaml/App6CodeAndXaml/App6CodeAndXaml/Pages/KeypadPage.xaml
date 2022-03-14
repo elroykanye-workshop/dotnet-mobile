@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App6CodeAndXaml.Pages.KeypadPage">
+    <ContentPage.Content>
+        <StackLayout Padding="16,16" VerticalOptions="Center" HorizontalOptions="Center">
+            <Frame VerticalOptions="Center">
+                <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="AntiqueWhite">
+                    <StackLayout Orientation="Vertical" >
+                        <Label Text="" HorizontalOptions="End" x:Name="displayLabel"></Label>
+                        <Button Text="&lt;-" Clicked="BackButton_Clicked" IsEnabled="False" x:Name="backButton"></Button>
+                    </StackLayout>
+                    
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <Button Text="7" Clicked="Button_Clicked"></Button>
+                        <Button Text="8" Clicked="Button_Clicked"></Button>
+                        <Button Text="9" Clicked="Button_Clicked"></Button>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <Button Text="4" Clicked="Button_Clicked"></Button>
+                        <Button Text="5" Clicked="Button_Clicked"></Button>
+                        <Button Text="6" Clicked="Button_Clicked"></Button>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <Button Text="1" Clicked="Button_Clicked"></Button>
+                        <Button Text="2" Clicked="Button_Clicked"></Button>
+                        <Button Text="3" Clicked="Button_Clicked"></Button>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical" >
+                        <Button Text="0" Clicked="Button_Clicked"></Button>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

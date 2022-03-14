@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App6CodeAndXaml.Pages.MonkeyTap">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0"></OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <StackLayout>
+            <BoxView VerticalOptions="FillAndExpand" x:Name="boxView1">
+                <BoxView.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="BoxView_Tapped"></TapGestureRecognizer>
+                </BoxView.GestureRecognizers>
+            </BoxView>
+            <BoxView VerticalOptions="FillAndExpand" x:Name="boxView2">
+                <BoxView.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="BoxView_Tapped"></TapGestureRecognizer>
+                </BoxView.GestureRecognizers>
+            </BoxView>
+            
+            <!-- mid button -->
+            <Button Text="Start" FontSize="Large" HorizontalOptions="Center" WidthRequest="128" x:Name="startButton" Clicked="StartButton_Clicked"></Button>
+            
+            <BoxView VerticalOptions="FillAndExpand" x:Name="boxView3">
+                <BoxView.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="BoxView_Tapped"></TapGestureRecognizer>
+                </BoxView.GestureRecognizers>
+            </BoxView>
+            <BoxView VerticalOptions="FillAndExpand" x:Name="boxView4">
+                <BoxView.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="BoxView_Tapped"></TapGestureRecognizer>
+                </BoxView.GestureRecognizers>
+            </BoxView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

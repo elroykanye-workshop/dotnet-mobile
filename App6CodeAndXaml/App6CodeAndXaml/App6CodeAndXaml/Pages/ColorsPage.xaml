@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:view="clr-namespace:App6CodeAndXaml.Views"
+             x:Class="App6CodeAndXaml.Pages.ColorsPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <ScrollView.Content>
+                <StackLayout>
+                    <view:ColorView ColorName="Blue"></view:ColorView>
+                    <view:ColorView ColorName="Red"></view:ColorView>
+                    <view:ColorView ColorName="Brown"></view:ColorView>
+                    <view:ColorView ColorName="Orange"></view:ColorView>
+                    <view:ColorView ColorName="Aqua"></view:ColorView>
+                    <view:ColorView ColorName="Accent"></view:ColorView>
+                    <view:ColorView ColorName="Default"></view:ColorView>
+                    <view:ColorView ColorName="Black"></view:ColorView>
+                </StackLayout>
+            </ScrollView.Content>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
