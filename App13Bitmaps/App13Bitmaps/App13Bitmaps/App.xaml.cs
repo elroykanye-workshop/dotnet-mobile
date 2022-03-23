@@ -11,7 +11,7 @@ namespace App13Bitmaps
         {
             InitializeComponent();
 
-            MainPage = new GithubImagePage();
+            MainPage = new ResourceBitmapPage2();
         }
 
         protected override void OnStart()

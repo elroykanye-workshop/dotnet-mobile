@@ -18,6 +18,7 @@ namespace App13Bitmaps.Pages
                     new Image
                     {
                         Source = ImageSource.FromUri(new Uri("https://avatars.githubusercontent.com/u/77556066?v=4")),
+                        Aspect = Aspect.Fill
 
                     },
                     new Label
