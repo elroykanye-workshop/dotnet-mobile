@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App14AbsoluteLayout.Pages;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace App14AbsoluteLayout
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new AbsoluteDemo();
         }
 
         protected override void OnStart()
