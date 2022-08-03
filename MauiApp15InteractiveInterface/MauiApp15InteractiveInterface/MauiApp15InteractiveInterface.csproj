@@ -16,7 +16,7 @@
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.mauiapp15interactiveinterface</ApplicationId>
-		<ApplicationIdGuid>6B2489FD-93E0-45A6-AA76-C129AA78FE76</ApplicationIdGuid>
+		<ApplicationIdGuid>9CDE35C2-1720-45E5-8A2E-8D50A843FC5C</ApplicationIdGuid>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -46,6 +46,10 @@
 
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="View\" />
 	</ItemGroup>
 
 </Project>
